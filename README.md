@@ -2,7 +2,7 @@
 A Generic Rest API / Web Service Class using JWT / firebase version
 
 #Step 1
-Download the files and change the basic details in Config File
+Download the files and change the basic details in Constants.php  File
 
 
 #Step 2
