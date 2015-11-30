@@ -7,10 +7,9 @@
  *
  * @category Base Request Handler
  * @package  RequestHandling_JWT
- * @author   BlackBurn027 <c4gopal@gmail.com>
- * @author   Anonymous < not sure from where half of this is taken >
+ * @author   BlackBurn027
  * @license  http://opensource.org/licenses/BSD-3-Clause 3-clause BSD
- * @link     Not Avaliable (atleast for now)
+ * @link     https://github.com/gopal-g/PDO-phpclass
  */
 
 #error_reporting(E_ALL);
