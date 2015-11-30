@@ -1,17 +1,4 @@
 <?php
-
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-include_once './Constants.php';
-include_once './Database.php';
-include_once './Rest.inc.php';
-include_once './JWT2.php';
-
 /**
  * Web Service Request Handler - Using JWT:
  * 
@@ -25,6 +12,14 @@ include_once './JWT2.php';
  * @license  http://opensource.org/licenses/BSD-3-Clause 3-clause BSD
  * @link     Not Avaliable (atleast for now)
  */
+
+#error_reporting(E_ALL);
+#ini_set("display_errors", 1);
+    include_once './Constants.php';
+    include_once './Database.php';
+    include_once './Rest.inc.php';
+    include_once './JWT2.php';
+
 class Request Extends REST {
     /* data string global for use in inherited class */
 
@@ -307,4 +302,3 @@ class Request Extends REST {
 $request = new Request();
 
 $request->processApi();
-
